@@ -809,3 +809,209 @@
 19:16:06.710 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a338c9c6de4206a118c708d78e3cec5776913217
 19:16:06.711 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
 19:16:06.711 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  22) is not same as client side buildName(browserstack-build-1 #22)
+20:14:50.646 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:14:50.650 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:14:51.208 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, user.dir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, localrepository=C\:\\Users\\sarat\\.m2\\repository}
+20:14:51.210 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sarat\eclipse-workspace\sampletype\browserstack.yml
+20:14:51.343 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:14:51.372 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:14:51.877 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\sarat\eclipse-workspace\sampletype\target\surefire\surefire8558464343857961585tmp
+20:14:51.889 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+20:14:51.904 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+20:14:51.922 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:14:51.923 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:14:51.923 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.6
+20:14:51.923 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:14:52.426 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:14:52.623 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 192ms
+20:14:53.493 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 864ms
+20:14:55.537 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 2040ms
+20:14:55.541 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:14:56.027 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:14:57.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:14:57.796 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:14:57.806 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 20_Feb_2014_DESKTOP_3MDQOH1_rjnn
+20:15:05.465 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:15:14.873 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:14.873 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:15.336 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:16.286 [setUp@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:16.834 [BStackDemo-0@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:17.750 [BStackDemo-1@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:22.369 [setUp@3] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:15:23.758 [BStackDemo-3@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:28.887 [addProductToCart@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:37.115 [addProductToCart@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:50.613 [addProductToCart@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:15:53.805 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/9lv8dgcvz0cymxdxkyagevcppfuo1f67e571oaw2 to view build report, insights, and many more debugging information all at one place!
+
+20:15:57.148 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:15:58.640 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/b4480b0e2b6b1a505cdacb0ec418e91b6379cc8b
+20:15:58.640 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:15:58.641 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  5) is not same as client side buildName(browserstack-build-1 #5)
+20:15:59.227 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Generated browserstack build artifacts at ./browserstack-artifacts/
+20:17:05.777 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:17:05.780 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:17:06.143 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, user.dir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, localrepository=C\:\\Users\\sarat\\.m2\\repository}
+20:17:06.145 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sarat\eclipse-workspace\sampletype\browserstack.yml
+20:17:06.215 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:17:06.233 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:17:06.565 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\sarat\eclipse-workspace\sampletype\target\surefire\surefire1022711265222990362tmp
+20:17:06.570 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+20:17:06.577 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+20:17:06.589 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:17:06.589 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:17:06.589 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.6
+20:17:06.589 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:17:07.006 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:17:07.224 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 213ms
+20:17:08.114 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 881ms
+20:17:10.183 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 2064ms
+20:17:10.188 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:17:10.653 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:17:12.452 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:17:12.453 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:17:12.474 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 20_Feb_2017_DESKTOP_3MDQOH1_Wc7B
+20:17:18.645 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:17:27.348 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:27.348 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:27.570 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:29.003 [BStackDemo-2@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:29.027 [BStackDemo-0@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:29.027 [BStackDemo-1@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:31.763 [setUp@3] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:17:33.198 [BStackDemo-3@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:40.697 [addProductToCart@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:45.888 [addProductToCart@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:46.487 [addProductToCart@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:50.299 [addProductToCart@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:17:53.456 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/h9pt5g25k9yginekodnrdpgqud9zmhp0vj0tdkjr to view build report, insights, and many more debugging information all at one place!
+
+20:17:56.916 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:17:57.320 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/a4b125d9a1b2ae245b50f9a02f375a0713655a8b
+20:17:57.321 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:17:57.322 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  23) is not same as client side buildName(browserstack-build-1 #23)
+20:33:03.633 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+20:33:03.637 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+20:33:04.023 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, user.dir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, localrepository=C\:\\Users\\sarat\\.m2\\repository}
+20:33:04.025 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sarat\eclipse-workspace\sampletype\browserstack.yml
+20:33:04.107 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+20:33:04.128 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+20:33:04.503 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\sarat\eclipse-workspace\sampletype\target\surefire\surefire6164629379354414464tmp
+20:33:04.506 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+20:33:04.513 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+20:33:04.525 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+20:33:04.525 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+20:33:04.526 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.6
+20:33:04.526 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+20:33:04.953 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+20:33:05.137 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 180ms
+20:33:05.984 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 836ms
+20:33:08.053 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 2064ms
+20:33:08.058 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+20:33:09.430 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+20:33:15.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+20:33:15.239 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+20:33:15.246 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 20_Feb_2033_DESKTOP_3MDQOH1_cqGR
+20:33:22.346 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+20:33:31.329 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:33:31.333 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:33:31.651 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:33:32.876 [BStackDemo-1@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:32.885 [BStackDemo-2@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:33.089 [BStackDemo-0@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:36.791 [setUp@3] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+20:33:38.252 [BStackDemo-3@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:44.910 [addProductToCart@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:48.775 [addProductToCart@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:33:51.938 [addProductToCart@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:34:00.021 [addProductToCart@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+20:34:03.156 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/gsf5xj8pzlm654ztzgnne3ldqs2sqpxl3pbijxow to view build report, insights, and many more debugging information all at one place!
+
+20:34:06.370 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+20:34:06.778 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/5ef3877b97f45164821bb3983214a38c85853f37
+20:34:06.778 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+20:34:06.779 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  24) is not same as client side buildName(browserstack-build-1 #24)
+22:05:52.998 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+22:05:53.006 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:05:53.577 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {basedir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, user.dir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, localrepository=C\:\\Users\\sarat\\.m2\\repository}
+22:05:53.580 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sarat\eclipse-workspace\sampletype\browserstack.yml
+22:05:53.674 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:05:53.694 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+22:05:54.129 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\sarat\eclipse-workspace\sampletype\target\surefire\surefire10909951236568391250tmp
+22:05:54.133 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:05:54.146 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+22:05:54.161 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+22:05:54.161 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+22:05:54.161 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.6
+22:05:54.161 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:05:54.674 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:05:54.873 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 195ms
+22:05:55.795 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 919ms
+22:05:57.760 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1962ms
+22:05:57.763 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:05:58.279 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+22:06:00.211 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:06:00.212 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:06:00.225 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 20_Feb_225_DESKTOP_3MDQOH1_QyKw
+22:06:07.293 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:06:16.555 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:06:17.384 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:06:17.834 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:06:17.997 [BStackDemo-1@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:18.783 [BStackDemo-2@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:19.232 [BStackDemo-0@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:22.001 [setUp@3] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:06:23.391 [BStackDemo-3@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:25.293 [addProductToCart@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:40.435 [addProductToCart@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:40.661 [addProductToCart@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:42.428 [addProductToCart@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:06:45.754 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/ozs9ilqx6khkiuoyk1hxin0lkxjcqgs0nijfjxnl to view build report, insights, and many more debugging information all at one place!
+
+22:06:49.539 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+22:06:50.802 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a
+22:06:50.802 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:06:50.803 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  6) is not same as client side buildName(browserstack-build-1 #6)
+22:06:51.433 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - Generated browserstack build artifacts at ./browserstack-artifacts/
+22:07:29.655 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.4
+22:07:29.659 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:07:30.052 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {style.color=always, basedir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, user.dir=C\:\\Users\\sarat\\eclipse-workspace\\sampletype, localrepository=C\:\\Users\\sarat\\.m2\\repository}
+22:07:30.054 [main] INFO  c.browserstack.utils.UtilityMethods - BrowserStack Yml Detected : C:\Users\sarat\eclipse-workspace\sampletype\browserstack.yml
+22:07:30.141 [main] INFO  c.b.config.BrowserStackConfig - Detected Framework testng
+22:07:30.162 [main] INFO  c.b.config.BrowserStackConfig - Setting value of testObservability as specified in your browserstack.yml to true
+22:07:30.498 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Found the configuration path is : C:\Users\sarat\eclipse-workspace\sampletype\target\surefire\surefire110184236853523015tmp
+22:07:30.503 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:07:30.510 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: none, Engine: none
+22:07:30.523 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+22:07:30.523 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+22:07:30.523 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.13.6
+22:07:30.523 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to testng
+22:07:30.898 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:07:31.097 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 195ms
+22:07:31.975 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 870ms
+22:07:33.941 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1961ms
+22:07:33.946 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:07:34.457 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted response - {"message":"SDK Event recorded successfully"}
+22:07:36.600 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:07:36.601 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:07:36.620 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 20_Feb_227_DESKTOP_3MDQOH1_JNB5
+22:07:42.624 [main] INFO  com.browserstack.LocalFactory - BrowserStack Local Started Successfully.
+22:07:50.756 [setUp@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:07:51.069 [setUp@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:07:51.787 [setUp@2] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:07:52.282 [BStackDemo-1@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:07:52.506 [BStackDemo-0@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:07:53.208 [BStackDemo-2@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:08:03.735 [addProductToCart@1] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:08:10.180 [addProductToCart@0] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:08:14.329 [addProductToCart@2] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:08:16.048 [setUp@3] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:08:17.451 [BStackDemo-3@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:09:09.629 [addProductToCart@3] DEBUG c.b.utils.FunnelInstrumentation - API Event Observability_Crash_Report_Upload response - OK
+22:09:14.909 [Thread-0] INFO  c.browserstack.utils.LogReportingAPI - Visit https://observability.browserstack.com/builds/7sytu8ucmmuzctiqz7qjuaquqdt7z6eqsgmpxxum to view build report, insights, and many more debugging information all at one place!
+
+22:09:18.353 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful response - {"message":"SDK Event recorded successfully"}
+22:09:18.880 [Thread-0] INFO  c.browserstack.utils.UtilityMethods - View build on BrowserStack dashboard: https://automate.browserstack.com/dashboard/v2/builds/9e5ca8059299b5a3df11d338e5838c4310f0b4b1
+22:09:18.881 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
+22:09:18.881 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack-build-1  25) is not same as client side buildName(browserstack-build-1 #25)

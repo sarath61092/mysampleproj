@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+      }
+
+      p {
+        display: inline;
+      }
+
+      .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        /* Safari */
+        animation: spin 2s linear infinite;
+      }
+
+      /* Safari */
+      @-webkit-keyframes spin {
+        0% {
+          -webkit-transform: rotate(0deg);
+        }
+        100% {
+          -webkit-transform: rotate(360deg);
+        }
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .table-container {
+        overflow-x: auto;
+        width: 100%;
+      }
+
+      .new-container {
+        margin-top: 10px;
+        padding: 16px 24px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-family: -apple-system, BlinkMacSystemFont,
+          Segoe UI, Helvetica, Arial, sans-serif,
+          Apple Color Emoji, Segoe UI Emoji, sans-serif;
+        font-size: 14px;
+        /* box-sizing: border-box; */
+      }
+
+      .bstack-table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #ccc;
+      }
+
+      .bstack-header {
+        height: 25px;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+
+      .bstack-data {
+        height: 20px;
+        text-align: center;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-bottom: 0;
+        border-top: 0;
+      }
+
+      .session-name {
+        text-align: left;
+      }
+
+      .bstack-row:nth-child(even) {
+        background-color: #f5f5f5;
+      }
+
+      .no-report-para {
+        line-height: 1.5;
+        color: #333;
+      }
+
+      .strong-font-custom {
+        font-weight: 700;
+      }
+
+      .bullet-points {
+        list-style: disc;
+      }
+
+      .bullet-item {
+        color: #333;
+        margin: 8px 0;
+        line-height: 1.5;
+        margin-left: 24px;
+      }
+
+      .titlecase-data {
+        text-transform: capitalize;
+      }
+
+      .error-span {
+        font-family: monospace;
+        color: #333;
+        padding: 2px 8px;
+        border-radius: 4px;
+        border: 1px solid #aaa;
+        font-weight: 400;
+        font-size: 12px;
+        color: #dd4b4b;
+        border-color: #dd4b4b;
+      }
+    </style>
+</head>
+
+<body style="overflow: auto">
+<div
+        class="table-container"
+>
+    <h2 style="padding-top: 10px; padding-bottom: 10px">
+        BrowserStack Test Results
+    </h2>
+    <div id="resultsTab">
+        <div
+                id="resultsNum"
+                style="
+            margin-top: 10px;
+            margin-bottom: 15px;
+            font-size: 15px;
+          "
+        >
+            <p>
+                Displaying&nbsp;
+                <span id="totalResultsCount">8</span>
+                &nbsp;sessions.
+            </p>
+        </div>
+        <div style="border-style: solid;border-width: thin;">
+            <div style="align-self: center;" align="left">
+                <h3 style="text-align: center;">
+                    Build Name: <a href="https://automate.browserstack.com/dashboard/v2/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a" target="_blank">browserstack-build-1  6</a>
+                </h3>
+            </div>
+        </div>
+        <table border="1" class="bstack-table">
+            <tr class="bstack-row">
+                <th class="bstack-header">Name</th>
+                <th class="bstack-header">Status</th>
+                <th class="bstack-header">REST API</th>
+                <th class="bstack-header">Browser/Device</th>
+                <th class="bstack-header">OS</th>
+                <th class="bstack-header">Duration</th>
+                <th class="bstack-header">Created At</th>
+            </tr>
+            <tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/47e5345a7166b4548716f726eb16ad1bb6d97050?auth_token=2b32ae41b2baaa024d0aff21a719c4fdd8cbf81e3d777b2a7e79f02a94126635" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Chrome 120.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">30</td> <td align="center" class="bstack-data">20 Feb 2024, 16:36 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/a8f7b5c3a21fd45792133d5f5c1a62aa8e3d40a9?auth_token=4c010362edbaaf1cd39c2e91b4bae524120327b0a02c8a13b8dcaa0da2897509" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Chrome 119.0</td> <td align="center" class="bstack-data">Windows 11</td> <td align="center" class="bstack-data">31</td> <td align="center" class="bstack-data">20 Feb 2024, 16:36 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/2c2164122e5db1d9e629a54cd7e36d032bcc466c?auth_token=35eb92bbc1c9f9f962d367720462998a63385f5683032403399a77904251169a" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:green;"><font color="green">Passed</font></td><td align="center" class="bstack-data">Edge 119.0</td> <td align="center" class="bstack-data">Windows 11</td> <td align="center" class="bstack-data">32</td> <td align="center" class="bstack-data">20 Feb 2024, 16:36 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/443260d3b53bbaa2c08d26a98e0d5b264272298a?auth_token=19050850c893a0829d5de27baec901c7b9d7c6cced46f3335e863935b5db30be" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:red;"><font color="red">Failed</font></td><td align="center" class="bstack-data">Chrome 110.0</td> <td align="center" class="bstack-data">OS X Monterey</td> <td align="center" class="bstack-data">17</td> <td align="center" class="bstack-data">20 Feb 2024, 16:36 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/1570806ab0ff7f777b4776939a9d153b9757f717?auth_token=bb8129265b4433a815ceaf3bd70e4f442483b3d7c06c9045c0879743da126395" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:red;"><font color="red">Failed</font></td><td align="center" class="bstack-data">Firefox 122.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">26</td> <td align="center" class="bstack-data">19 Feb 2024, 18:42 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/05fae4c00c7d8c052ca8e339a6cb6d1909c04fc1?auth_token=66dadfe611d68a138731497df372566824117a66d881451f9c902824d976e5b6" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:red;"><font color="red">Failed</font></td><td align="center" class="bstack-data">Chrome 120.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">32</td> <td align="center" class="bstack-data">19 Feb 2024, 18:42 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/3c5556d951f36f6c597ac46f128eb6745e7d79ae?auth_token=b536fd9915e685c5e8ec61c3733157be774ae5ce11ff001e78ee48548c9b76a8" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:red;"><font color="red">Failed</font></td><td align="center" class="bstack-data">Safari 15.6</td> <td align="center" class="bstack-data">OS X Monterey</td> <td align="center" class="bstack-data">12</td> <td align="center" class="bstack-data">19 Feb 2024, 18:42 UTC</td> </tr><tr class="bstack-row">
+<td class="bstack-data session-name"><a href="https://automate.browserstack.com/builds/f7df5d8030594528dfff8fcce5bbc4c6a7f79a1a/sessions/fcd17097bdf417a0d648b015f6e1fed283f29849?auth_token=2e1e076620c750096aff09d90a138495c2fb21ff2c21c4e15476694389085fe6" target="_blank">browstack.BStackDemoTest-addProductToCart</a></td>
+<td class="bstack-data" style="color:green;"><font color="green">Completed</font></td>
+<td class="bstack-data" style="color:red;"><font color="red">Failed</font></td><td align="center" class="bstack-data">Edge 121.0</td> <td align="center" class="bstack-data">Windows 10</td> <td align="center" class="bstack-data">30</td> <td align="center" class="bstack-data">19 Feb 2024, 18:42 UTC</td> </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>
