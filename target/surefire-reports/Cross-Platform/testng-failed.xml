@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Cross-Platform]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" name="BStackDemo-3(failed)" verbose="0">
+    <parameter name="platform" value="3"/>
+    <classes>
+      <class name="browstack.BStackDemoTest">
+        <methods>
+          <include name="addProductToCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- browstack.BStackDemoTest -->
+    </classes>
+  </test> <!-- BStackDemo-3(failed) -->
+</suite> <!-- Failed suite [Cross-Platform] -->

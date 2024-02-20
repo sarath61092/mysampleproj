@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-20T19:15:24 IST" name="Cross-Platform" finished-at="2024-02-20T19:16:02 IST" duration-ms="37355">
+    <groups>
+    </groups>
+    <test started-at="2024-02-20T19:15:24 IST" name="BStackDemo-1" finished-at="2024-02-20T19:15:48 IST" duration-ms="23549">
+      <class name="browstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:browstack.BStackDemoTest@5c20ffa8]" started-at="2024-02-20T19:15:24 IST" name="setUp" finished-at="2024-02-20T19:15:32 IST" duration-ms="7222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:browstack.BStackDemoTest@5c20ffa8]" started-at="2024-02-20T19:15:32 IST" name="addProductToCart" finished-at="2024-02-20T19:15:44 IST" duration-ms="12036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browstack.BStackDemoTest@5c20ffa8]" started-at="2024-02-20T19:15:45 IST" name="tearDown" finished-at="2024-02-20T19:15:48 IST" duration-ms="2721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-1 -->
+    <test started-at="2024-02-20T19:15:24 IST" name="BStackDemo-2" finished-at="2024-02-20T19:15:51 IST" duration-ms="26981">
+      <class name="browstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:browstack.BStackDemoTest@46c00568]" started-at="2024-02-20T19:15:24 IST" name="setUp" finished-at="2024-02-20T19:15:32 IST" duration-ms="7222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:browstack.BStackDemoTest@46c00568]" started-at="2024-02-20T19:15:33 IST" name="addProductToCart" finished-at="2024-02-20T19:15:47 IST" duration-ms="13914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browstack.BStackDemoTest@46c00568]" started-at="2024-02-20T19:15:48 IST" name="tearDown" finished-at="2024-02-20T19:15:51 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-2 -->
+    <test started-at="2024-02-20T19:15:24 IST" name="BStackDemo-0" finished-at="2024-02-20T19:15:55 IST" duration-ms="30692">
+      <class name="browstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:browstack.BStackDemoTest@36bc415e]" started-at="2024-02-20T19:15:24 IST" name="setUp" finished-at="2024-02-20T19:15:32 IST" duration-ms="8105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:browstack.BStackDemoTest@36bc415e]" started-at="2024-02-20T19:15:32 IST" name="addProductToCart" finished-at="2024-02-20T19:15:51 IST" duration-ms="18066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browstack.BStackDemoTest@36bc415e]" started-at="2024-02-20T19:15:52 IST" name="tearDown" finished-at="2024-02-20T19:15:55 IST" duration-ms="3010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-0 -->
+    <test started-at="2024-02-20T19:15:24 IST" name="BStackDemo-3" finished-at="2024-02-20T19:16:02 IST" duration-ms="37354">
+      <class name="browstack.BStackDemoTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:browstack.BStackDemoTest@2d66530f]" started-at="2024-02-20T19:15:24 IST" name="setUp" finished-at="2024-02-20T19:15:41 IST" duration-ms="16520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addProductToCart()[pri:0, instance:browstack.BStackDemoTest@2d66530f]" started-at="2024-02-20T19:15:41 IST" name="addProductToCart" finished-at="2024-02-20T19:15:58 IST" duration-ms="16792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCart -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:browstack.BStackDemoTest@2d66530f]" started-at="2024-02-20T19:15:59 IST" name="tearDown" finished-at="2024-02-20T19:16:02 IST" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- browstack.BStackDemoTest -->
+    </test> <!-- BStackDemo-3 -->
+  </suite> <!-- Cross-Platform -->
+</testng-results>
